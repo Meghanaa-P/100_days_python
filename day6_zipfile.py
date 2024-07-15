@@ -43,7 +43,7 @@ def main():
 		
 
 def unzip(): 
-    file_name = input("Enter file name to unzip: ")
+    file_name = input("Enter zip file name to unzip: ")
   
     with ZipFile(file_name, 'r') as zip: 
         zip.printdir() 
