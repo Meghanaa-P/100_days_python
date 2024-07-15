@@ -39,7 +39,7 @@ def main():
 	if b=='y':
 		unzip()
 	else:
-		return 	
+		pass	
 		
 
 def unzip(): 
